@@ -17,10 +17,10 @@
 	}];
 }
 
-- (void)dealloc {
-	[callbackId release];
-    [super dealloc];
-}
+/* - (void)dealloc { */
+/* 	[callbackId release]; */
+/*     [super dealloc]; */
+/* } */
 
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo {
     // Was there an error?
